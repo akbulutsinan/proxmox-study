@@ -1,0 +1,11 @@
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDGoAPevyXQRiZmmneDXSytGCeRBC7+wJlWEd0o/PUuTP6e524fIMAswkXSvCZse1sl1vFxdCdUarCwLgPp0pefiOAwDU/sudzORGz04jA3apYW+2g+AZXQuRtX2nnvJmAkCJBeBDqfWiuv0o51/TnZ8eIAvd5+bXtBfCkUOJn0kI9BMZGZqSpggI+x8Hd0craiTNi1VyS9ziL/3BbJCsT9UPb1KMjOaf638m1F5HYFbsxVbGk6DSbekDG726sK3C5mCZCX4o5h5HyURB1ELbo/+GPsconcbhFPpFhT1YjR1m5H81e0VCNET/nZGyPfneymu/BUe0L8MaqAtdDCSpNExI1pgGZOf+9Ca4K0CIS5PlW1p0xeoTdUjulh04HpmHx3Hvbw5OJrTDXDMMP8sU5mB8oL9fp2buVpY5OSJ5IKf7Sd3smMdHsuXBJR9u9HwtjR8Ix+tNd4yDywjmJysPIm5hcRzTh7sf5v2TJZQIEwGAcP098FuuvoCCmttzMk0WbOgPIE0uDE3QJ2veukE2SgVvksZDff3K7+TOpn/ehvsYtJsrPoqsUSt5kjGhiGNbYWRdPP1Z0u61dUrWhGaJREm1jrJHhYa27Fiyn9R6P92UfAlyzPMWSsLSX4Dnu30PDXjWeACLRsDFotFFZtL2063WOYOSQX0ERlCpvF0o+N9w== sinana"
+}
+
+variable "proxmox_host" {
+  default = "trdevopsprox"
+}
+
+variable "template_name" {
+  default = "base-109-disk-0"
+}
